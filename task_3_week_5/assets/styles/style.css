@@ -1,0 +1,119 @@
+body {
+  background-color: #fff2a5; /* Цвет фона */
+}
+
+.flexheader {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  padding: 22px;
+  width: 6vw;
+}
+
+nav {
+  font-family: "Neucha", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.menu {
+  padding: 50px;
+  text-decoration: none;
+  color: #4e0325; /* Цвет шрифта навигации */
+}
+
+.menu:hover {
+  padding: 50px;
+  text-decoration: none;
+  color: #a862e6; /* Изменение цвета шрифта навигации при наведении */
+}
+h1 {
+  text-align: center;
+  font-family: "Neucha", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+}
+span {
+  color: #a862e6; /* Выделение слова в заголовке */
+}
+
+.flexcontainermain {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.pic {
+  padding: 10px;
+  width: 17vw;
+  height: 40vh;
+  transition: 1s; /* Скорость эффекта */
+  border-radius: 30px;
+}
+.pic:hover {
+  padding: 10px;
+  width: 17vw;
+  height: 40vh;
+  transform: scale(1.2); /* Увеличение картинки при наведении */
+  border-radius: 30px;
+}
+.footermenu {
+  padding: 20px;
+  text-decoration: none;
+  font-size: large;
+  color: #4e0325; /* Цвет шрифта навигации */
+}
+.footermenu:hover {
+  padding: 20px;
+  text-decoration: none;
+  font-size: large;
+  color: #a862e6; /* Изменение цвета шрифта навигации при наведении */
+}
+
+.button {
+  padding: 26px 34px 26px 34px;
+  border-radius: 35px;
+  text-decoration: none;
+  font-family: "Neucha", sans-serif;
+  font-size: 28px;
+  color: #3dfefb; /* Цвет шрифта кнопки */
+  background: #220055; /* Цвет фона кнопки */
+}
+
+.button:hover {
+  padding: 26px 34px 26px 34px;
+  border-radius: 35px;
+  text-decoration: none;
+  font-family: "Neucha", sans-serif;
+  font-size: 28px;
+  color: #220055; /* Изменение цвета шрифта при наведении */
+  background: #3dfefb; /* Изменение цвета фона при наведении */
+}
+
+.flexcontainernextpage {
+  display: flex;
+  justify-content: center;
+}
+
+.flexfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.iconcontacts {
+  padding: 40px;
+  height: 6vh;
+  transition: 1s; /* Скорость эффекта */
+}
+.iconcontacts:hover {
+  padding: 40px;
+  height: 6vh;
+  transform: scale(1.2); /* Увеличение иконки при наведении */
+}
+.flexcontacts {
+  display: flex;
+  flex-direction: row;
+}

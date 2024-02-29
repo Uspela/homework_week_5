@@ -1,0 +1,88 @@
+.flexcontainerheader {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  background-color: #e0e0e0;
+}
+
+.flexcontainermain {
+  display: flex;
+  flex-direction: row;
+  flex-basis: content;
+}
+
+.flexcontainerleftside {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  background-color: #fff8e3;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.flex3main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex3 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 45%;
+  padding: 10px;
+  margin: 3px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  background-color: #feeab9;
+}
+
+.flex3down {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 95%;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  background-color: #feeab9;
+}
+
+.flexcontainerrightside {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  background-color: #ddeccb;
+}
+
+.flexcontainerfooter {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  background-color: #e0e0e0;
+}
+
+.flex5 {
+  display: flex;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  background-color: #fafafa;
+}
